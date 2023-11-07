@@ -13,20 +13,21 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
-
-
-
-
-
-
-
-
-
-
-
+```
+graph = {
+ '5' : ['3','7'],
+ '3' : ['2', '4'],
+ '7' : ['8'],
+ '2' : [],
+ '4' : ['8'],
+ '8' : []}
+visited = [] # List for visited nodes.
+queue = [] #Initialize a queue
+def bfs(visited, graph, node): #function for BFS
+ visited.append(node)
+ queue.append(node)
+```
 ### Output:
-
-
-
+![image](https://github.com/Srimathi0123/AI_Lab_2023-24/assets/118673240/8c41ff80-4808-4186-a199-39e56b11de71)
 ### Result:
 Thus the breadth first search order was found sucessfully.
