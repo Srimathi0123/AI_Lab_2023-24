@@ -27,6 +27,8 @@ fault(paper) :-
  problem(not_printing),
  problem(paper_jam),
  problem(out_of_paper).
+```
+```
 fault(motherboard) :-
  problem(long_beep),
  problem(short_beep).
