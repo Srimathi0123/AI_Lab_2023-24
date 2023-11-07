@@ -34,6 +34,8 @@ hypothesis(Patient,common_cold) :-
  symptom(Patient,sneezing),
  symptom(Patient,sore_throat).
 hypothesis(Patient,chicken_pox) :-
+```
+```
  symptom(Patient,fever),
  symptom(Patient,chills),
  symptom(Patient,body_ache), 
